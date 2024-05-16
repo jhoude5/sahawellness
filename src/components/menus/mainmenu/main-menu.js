@@ -23,7 +23,7 @@ const MainMenu = ({ redHeader }) => {
         </li>
         <li className='menu--list__item'><Link to='/tour'>Tour</Link></li>
         <li className='menu--list__item'><Link to='/store'>Store</Link></li>
-        <li className='menu--list__item'><Link to='/store'>Contact us</Link></li>
+        <li className='menu--list__item'><Link to='/contact'>Contact us</Link></li>
         <Link className='btn btn-primary' to='https://accounts.janeapp.com/'>Book an appointment</Link>
       </ul>
     </nav>
