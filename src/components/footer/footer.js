@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import instagram from '../../files/icons/instagram.svg';
 import facebook from '../../files/icons/facebook.svg';
-import linkedin from '../../files/icons/linkedin.svg';
 
 const Footer = () =>  {
 

@@ -28,5 +28,11 @@ module.exports = {
       ],
       display: 'swap'
     }
+  },
+  {
+    resolve: 'gatsby-plugin-html-attributes',
+    options: {
+      lang: 'en-CA'
+    }
   }]
 };
