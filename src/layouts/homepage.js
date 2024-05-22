@@ -2,6 +2,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Header from '../components/header.js';
 import homeIntroGraphic from '../files/images/background-hp.jpeg';
+import Footer from '../components/footer/footer.js';
+import FooterCTA from '../components/footer/footer-cta.js';
+import 'jquery/dist/jquery.min.js';
+import '@popperjs/core/dist/umd/popper.min.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
 
 const HomepageLayout = ({ children }) => {
   const fadersRef = useRef([]);
@@ -29,7 +34,7 @@ const HomepageLayout = ({ children }) => {
        <Header />
         <main id='main-content' tabIndex='-1'>
         <section className='home--hero-section'>
-        <div className='inner'>
+        <div className='inner '>
           <img
             src={homeIntroGraphic}
             alt='woods'
@@ -37,14 +42,16 @@ const HomepageLayout = ({ children }) => {
             className='fade-in'></img>
           <div className='info-text'>
             <h1>
-              Elemental <span class="secondary-h1">Kelowna</span>
+              Elemental 
             </h1>
+            <p class="secondary-h1">Kelowna</p>
           </div>
         </div>
       </section>
           <div>{children}</div>
+          <FooterCTA />
         </main>
-        
+        <Footer />
       </div>
       
     </div>

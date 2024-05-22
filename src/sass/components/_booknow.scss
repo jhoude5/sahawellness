@@ -1,0 +1,21 @@
+.homepage-cta {
+    .booknow-section {
+        background-color: $white;
+    }
+}
+.booknow-section {
+        background-color: $color-clay;
+}
+.btn-primary {
+    background-color: $color-gold;
+    border: none;
+    max-width: 250px;
+    margin: 60px auto 0;
+    padding: 15px 11px;
+    color: $black;
+    &:hover,
+    &:focus {
+        background-color: $color-sand;
+        color: $black;
+    }
+}

@@ -1,7 +1,11 @@
 import React, { useRef, useEffect } from 'react';
 import HomepageLayout from '../layouts/homepage';
-import homeIntroGraphic from '../files/images/background-hp.jpeg';
 import '../sass/styles.scss';
+import acupunture from '../files/images/acupuncture.png';
+import massage from '../files/images/massage.png';
+import soundHealing from '../files/images/soundhealing.png';
+import arrow from '../files/icons/arrow-right.svg';
+import BookNow from '../components/cta/booknow';
 
 const HomePage = () => {
   const fadersRef = useRef([]);
@@ -40,36 +44,34 @@ const HomePage = () => {
   return (
     <HomepageLayout>
       {/* <SEO title='Home' /> */}
-      <section className='home--hero-section'>
-        <div className='inner'>
-          <img
-            src={homeIntroGraphic}
-            alt='woods'
-            ref={(e) => (fadersRef.current[0] = e)}
-            className='fade-in'></img>
-          <div className='info-text'>
-            <h1>
-              Elemental <span class="secondary-h1">Kelowna</span>
-            </h1>
-            {/* <LinkButton
-              src='/case-studies'
-              size='large'
-              type='primary'
-              text='See our work'
-            /> */}
+      
+      <section className='homepage-cta'>
+        <BookNow />
+      </section>
+      <section className='homepage-services'>
+        <div className='container'>
+          <div className='row'>
+          <h2>Services Offered</h2>
+          <div className='individual-services'>
+            <div>
+              <img src={acupunture} />
+              <p>Acupuncture</p>
+            </div>
+            <div>
+              <img src={massage} />
+              <p>Massage</p>
+            </div>
+            <div>
+              <img src={soundHealing} />
+              <p>Sound Healing</p>
+            </div>
           </div>
+          <div className='learnmore-btn'>
+            <a href='/services'>Learn more<img src={arrow} /></a>
+          </div></div>
         </div>
       </section>
-      
-
-       
-      {/* <PrimaryPageCTA
-        title='Let’s build a public success story.'
-        subtitle='Get in touch to start.'
-        primaryButtonText='Put us to work'
-        secondaryButtonText='Join our team'
-        secondaryButtonLink='/careers'
-      /> */}
+    
     </HomepageLayout>
   );
 };

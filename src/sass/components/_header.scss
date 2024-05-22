@@ -1,0 +1,26 @@
+
+header {
+    background-color: $color-dark-green;
+    .logo {
+        max-width: 150px;
+    }
+    .bm-burger-button {
+        width: 50px;
+    }
+    .nav-menu ul {
+        margin-left: auto;
+    }
+    a {
+        color: $white !important;
+    }
+    .book-appt-button {
+        margin-left: 20px;
+        background-color: $color-gold;
+        color: $black !important;
+        border: none;
+        margin-top: 0;
+    }
+    .nav-item {
+        margin-top: 10px;
+    }
+}

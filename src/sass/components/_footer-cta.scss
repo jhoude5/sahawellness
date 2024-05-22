@@ -1,0 +1,21 @@
+.footer-cta {
+    margin-bottom: 120px;
+    text-align: center;
+    .row {
+        display: flex;
+        gap: 154px;
+        justify-content: center;
+        .row-item {
+            width: auto;
+            .footer-cta-heading {
+                font-size: 20px !important;
+                font-family: inter;
+                font-weight: 700;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+        
+    }
+}

@@ -16,8 +16,17 @@ module.exports = {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
-      "path": "./src/images/"
+      "path": "./src/files/images/"
     },
     __key: "images"
+  },
+  {
+    resolve: `gatsby-plugin-google-fonts`,
+    options: {
+      fonts: [
+        `island moments`, `didot`, `dancing script`, `inter\:400,700`
+      ],
+      display: 'swap'
+    }
   }]
 };

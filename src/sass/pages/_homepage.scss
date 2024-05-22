@@ -1,0 +1,36 @@
+.home--hero-section {
+    margin: 0;
+    .inner {
+        position: relative;
+    }
+    .info-text {
+        background-color: $color-clay;
+        opacity: 75%;
+        max-width: 500px;
+        font-family: island moments;
+        margin: 0 auto;
+        padding: 40px;
+        position: absolute;
+        top: 250px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        h1 {
+            color: $white;
+            font-size: 128px;
+            
+        }
+        .secondary-h1 {
+            font-family: Didot;
+            margin-top: 0;
+            font-size: 65px;
+            text-align: right;
+            color: $white;
+            margin-top: -58px;
+        }
+    }
+}
+.homepage-cta {
+    text-align: center;
+    max-width: 500px;
+}

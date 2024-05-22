@@ -11,37 +11,36 @@ import MobileMenu from './menus/mobilemenu/mobile-menu';
 
 const Header = () => {
 
-    const [scrolled, setScrolled] = React.useState(false);
-    const [scrolledMobile, setScrolledMobile] = React.useState(false);
-    const handleScroll = () => {
-        const offset = window.scrollY;
-        if (offset > 500) {
-            setScrolled(true);
-        }
-        else if (offset > 300) {
-            setScrolledMobile(true);
-        }
-        else {
-            setScrolled(false);
-            setScrolledMobile(false);
-        }
-    }
+    // const [scrolled, setScrolled] = React.useState(false);
+    // const [scrolledMobile, setScrolledMobile] = React.useState(false);
+    // const handleScroll = () => {
+    //     const offset = window.scrollY;
+    //     if (offset > 500) {
+    //         setScrolled(true);
+    //     }
+    //     else if (offset > 300) {
+    //         setScrolledMobile(true);
+    //     }
+    //     else {
+    //         setScrolled(false);
+    //         setScrolledMobile(false);
+    //     }
+    // }
 
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll)
-    })
-    let headerClasses = ['header'];
-    if (scrolled) {
-        headerClasses.push('scrolled');
-    }
+    // useEffect(() => {
+    //     window.addEventListener('scroll', handleScroll)
+    // })
+    // let headerClasses = ['header'];
+    // if (scrolled) {
+    //     headerClasses.push('scrolled');
+    // }
 
     return (
 
-        <header className={`s ${scrolledMobile ? "scrolled-mobile" : ""}`}>
-            <div className='header'><div className='inner'>
-                <Link to='/' className='logo'>
-                    <img className='logo' src={Logo} alt='Elemental Kelowna'></img>
-                </Link>
+        <header
+        // className={`s ${scrolledMobile ? "scrolled-mobile" : ""}`}>
+        >
+            <div className='header container'><div className='inner'>
                 <MainMenu />
                 {/* <MobileMenu
                   right

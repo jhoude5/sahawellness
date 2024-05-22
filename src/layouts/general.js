@@ -1,6 +1,8 @@
-// import '../sass/styles.scss';
+import '../sass/styles.scss';
 import React, { useRef, useEffect, useState } from 'react';
 import Header from '../components/header.js';
+import FooterCTA from '../components/footer/footer-cta.js';
+import Footer from '../components/footer/footer.js';
 
 const Layout = ({ children }) => {
     const fadersRef = useRef([]);
@@ -28,7 +30,9 @@ const Layout = ({ children }) => {
        <Header />
         <main id='main-content' tabIndex='-1'>
           <div>{children}</div>
+          <FooterCTA />
         </main>
+        <Footer />
         
       </div>
       
