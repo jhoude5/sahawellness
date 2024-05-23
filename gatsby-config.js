@@ -6,6 +6,9 @@ module.exports = {
     title: `elemental-kelowna`,
     siteUrl: `https://www.yourdomain.tld`
   },
+  flags: {
+    DEV_SSR: true
+  },
   plugins: [{
     resolve: 'gatsby-source-contentful',
     options: {
@@ -19,15 +22,6 @@ module.exports = {
       "path": "./src/files/images/"
     },
     __key: "images"
-  },
-  {
-    resolve: `gatsby-plugin-google-fonts`,
-    options: {
-      fonts: [
-        `island moments`, `didot`, `dancing script`, `inter\:400,700`
-      ],
-      display: 'swap'
-    }
   },
   {
     resolve: 'gatsby-plugin-html-attributes',

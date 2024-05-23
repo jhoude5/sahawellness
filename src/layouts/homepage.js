@@ -4,9 +4,6 @@ import Header from '../components/header.js';
 import homeIntroGraphic from '../files/images/background-hp.jpeg';
 import Footer from '../components/footer/footer.js';
 import FooterCTA from '../components/footer/footer-cta.js';
-import 'jquery/dist/jquery.min.js';
-import '@popperjs/core/dist/umd/popper.min.js';
-import 'bootstrap/dist/js/bootstrap.min.js';
 
 const HomepageLayout = ({ children }) => {
   const fadersRef = useRef([]);
@@ -38,8 +35,7 @@ const HomepageLayout = ({ children }) => {
           <img
             src={homeIntroGraphic}
             alt='woods'
-            ref={(e) => (fadersRef.current[0] = e)}
-            className='fade-in'></img>
+            ></img>
           <div className='info-text'>
             <h1>
               Elemental 
