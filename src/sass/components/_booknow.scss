@@ -10,12 +10,15 @@
     background-color: $color-gold;
     border: none;
     max-width: 250px;
-    margin: 60px auto 0;
+    margin: 30px auto 0;
     padding: 15px 11px;
     color: $black;
     &:hover,
     &:focus {
         background-color: $color-sand;
         color: $black;
+    }
+    @media(min-width: 768px) {
+        margin: 60px auto 0;
     }
 }

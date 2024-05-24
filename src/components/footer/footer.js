@@ -19,7 +19,7 @@ const Footer = () =>  {
             <li><a href='/tour'>Tour</a></li>
             </ul></nav>
         <div className='footer-logo col-md-3'>
-            <a href='/'>Elemental</a>
+            <a href='/'>Elemental Health</a>
         </div>
         
         <div className=''>
@@ -28,7 +28,7 @@ const Footer = () =>  {
         <div className='col-md-9'>
             <p className='copyright'>©All rights reserved - Jadd Abboud</p>
         </div>
-        <div className='col-md-3'>
+        <div className='social-icons col-md-3'>
             <div className='social-icons-wrapper'>
                 <a href='/' className='social-icon'><img src={instagram}/></a> 
                 <a href='/' className='social-icon'><img src={facebook}/></a>

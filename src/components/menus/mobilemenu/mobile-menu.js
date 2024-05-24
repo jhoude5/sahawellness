@@ -21,71 +21,25 @@ const MobileMenu = (props) => {
   return (
     <Menu {...props}>
       <ul className="mmenu--list">
-        <li className='mmenu--list__item'
-          ref={(e) => (headingsRef.current[0] = e)}>
-          <button
-            className="heading"
-            onKeyDown={() => { }}
-            tabIndex={0}
-            onClick={() => onCollapseClick(0)}
-          >
-            Company
-          </button>
-          <ul>
-            {/*<li><Link to="/">About</Link></li>*/}
-            <li><Link to="/team">Team</Link></li>
-            <li><Link to="/press">Press</Link></li>
-            <li><a href='https://reports.civicactions.com/impact' className='external-link'>Impact</a></li>
-          </ul>
+      
+        <li className='mmenu--list__item'>
+          <Link to='/about'>About</Link>
         </li>
-
-        <li className='mmenu--list__item'
-            ref={(e) => (headingsRef.current[1] = e)}>
-          <button
-            className="heading"
-            onKeyDown={() => { }}
-            tabIndex={0}
-            onClick={() => onCollapseClick(1)}
-          >
-            Services
-          </button>
-          <ul>
-            <li><Link to="/services#web-cms">Web & CMS</Link></li>
-            <li><Link to="/services#service-modernization">IT Modernization</Link></li>
-            <li><Link to="/services#product-design">Product & Design</Link></li>
-            <li><Link to="/services#security-compliance">Security & Compliance</Link></li>
-            <li><Link to="/services#data-services">Data Services</Link></li>
-            <li><Link to="/services#workforce-development">Workforce Development</Link></li>
-            <li><Link to="/services/ditap">DITAP</Link></li>
-          </ul>
-        </li>
-
-        <li className='mmenu--list__item'
-          ref={(e) => (headingsRef.current[2] = e)}>
-          <button
-            className="heading"
-            onKeyDown={() => { }}
-            tabIndex={0}
-            onClick={() => onCollapseClick(2)}
-          >
-            Our Work
-          </button>
-          <ul>
-            <li><Link to="/case-studies">Case Studies</Link></li>
-            <li><Link to="/contracting">Contracting</Link></li>
-          </ul>
+        
+        <li className='mmenu--list__item'>
+          <Link href='/store'>Store</Link>
         </li>
 
         <li className='mmenu--list__item'>
-          <a href='https://medium.com/civicactions'>Insights</a>
+          <Link to="/contact-us">Contact Us</Link>
         </li>
 
         <li className='mmenu--list__item'>
-          <Link to="/careers">Careers</Link>
+          <Link to="/tour">Tour</Link>
         </li>
 
         <li className='mmenu--list__item'>
-          <Link to="/contact">Contact</Link>
+          <Link className="btn btn-primary" to="/jane-app">Book an appointment</Link>
         </li>
       </ul>
     </Menu>

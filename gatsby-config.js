@@ -24,6 +24,15 @@ module.exports = {
     __key: "images"
   },
   {
+    resolve: `gatsby-plugin-google-fonts`,
+    options: {
+      fonts: [
+        `island moments`, `didot`, `dancing script`, `inter`
+      ],
+      display: 'swap'
+    }
+  },
+  {
     resolve: 'gatsby-plugin-html-attributes',
     options: {
       lang: 'en-CA'

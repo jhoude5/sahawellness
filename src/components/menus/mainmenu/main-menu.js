@@ -6,7 +6,7 @@ const MainMenu = ({ redHeader }) => {
 
   return (
     <nav className='navbar navbar-expand-lg'>
-        <Link to='/' className='navbar-brand'>Elemental</Link>
+        <Link to='/' className='navbar-brand'>Elemental Health</Link>
         <div className="collapse navbar-collapse nav-menu">
             <ul className='navbar-nav'>
             

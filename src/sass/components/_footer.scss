@@ -1,6 +1,16 @@
 footer {
     background-color: $color-dark-green;
-    padding-top: 20px;
+    padding: 20px 20px 0px;
+    .row {
+        position: relative;
+    }
+    .social-icons {
+        position: absolute;
+        bottom: 70px;
+        @media (min-width: 768px){
+            position: relative;
+        }
+    }
     .social-icons-wrapper {
         display: flex;
         gap: 20px;
@@ -26,9 +36,11 @@ footer {
     }
     .footer-menu {
         list-style: none;
-        display: flex;
         gap: 50px;
         padding: 0;
+        @media(min-width: 768px) {
+            display: flex;
+        }
         a {
             font-size: 20px;
         }
@@ -44,5 +56,10 @@ footer {
     }
     .footer-logo {
         text-align: right;
+        position: absolute;
+        top: 0;
+        @media (min-width: 768px){
+            position: relative;
+        }
     }
 }

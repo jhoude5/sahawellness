@@ -7,6 +7,7 @@ import soundHealing from '../files/images/soundhealing.png';
 import arrow from '../files/icons/arrow-right.svg';
 import BookNow from '../components/cta/booknow';
 
+
 const HomePage = () => {
   const fadersRef = useRef([]);
   useEffect(() => {
@@ -53,15 +54,15 @@ const HomePage = () => {
           <div className='row'>
           <h2>Services Offered</h2>
           <div className='individual-services'>
-            <div>
+            <div className='service col-lg-4'>
               <img src={acupunture} />
               <p>Acupuncture</p>
             </div>
-            <div>
+            <div className='service col-lg-4'>
               <img src={massage} />
               <p>Massage</p>
             </div>
-            <div>
+            <div className='service col-lg-4'>
               <img src={soundHealing} />
               <p>Sound Healing</p>
             </div>

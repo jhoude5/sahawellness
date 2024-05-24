@@ -2,8 +2,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Header from '../components/header.js';
 import homeIntroGraphic from '../files/images/background-hp.jpeg';
+import mobileHomeIntroGraphic from '../files/images/mobile-background-hp.png';
 import Footer from '../components/footer/footer.js';
 import FooterCTA from '../components/footer/footer-cta.js';
+import { ElfsightWidget } from 'react-elfsight-widget';
 
 const HomepageLayout = ({ children }) => {
   const fadersRef = useRef([]);
@@ -32,23 +34,36 @@ const HomepageLayout = ({ children }) => {
         <main id='main-content' tabIndex='-1'>
         <section className='home--hero-section'>
         <div className='inner '>
-          <img
+          <img className='desktop-background-img'
             src={homeIntroGraphic}
+            alt='woods'
+            ></img>
+            <img className='mobile-background-img'
+            src={mobileHomeIntroGraphic}
             alt='woods'
             ></img>
           <div className='info-text'>
             <h1>
-              Elemental 
+              Elemental <br/>
+              <span class="secondary-h1">Health</span>
             </h1>
-            <p class="secondary-h1">Kelowna</p>
+            
           </div>
         </div>
       </section>
-          <div>{children}</div>
-          <FooterCTA />
-        </main>
-        <Footer />
-      </div>
+      <div>{children}</div>
+      <section className='google-reviews'>
+        <div className='container'>
+          <div className='row'>
+            <h2>Google Reviews</h2>
+            <ElfsightWidget widgetId=''/>
+          </div>
+        </div>
+      </section>
+      <FooterCTA />
+      </main>
+      <Footer />
+    </div>
       
     </div>
   );

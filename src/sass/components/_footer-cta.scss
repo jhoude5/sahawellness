@@ -1,19 +1,28 @@
 .footer-cta {
-    margin-bottom: 120px;
+    padding-bottom: 80px;
+    padding-top: 80px;
     text-align: center;
+    background-color: $color-clay;
     .row {
         display: flex;
-        gap: 154px;
+        gap: 50px;
         justify-content: center;
+        @media(min-width: 900px) {
+            gap: 154px;
+        }
         .row-item {
             width: auto;
             .footer-cta-heading {
                 font-size: 20px !important;
                 font-family: inter;
                 font-weight: 700;
+                
             }
             p {
-                font-size: 20px;
+                font-size: 16px;
+                @media(min-width: 768px) {
+                    font-size: 20px !important;
+                }
             }
         }
         

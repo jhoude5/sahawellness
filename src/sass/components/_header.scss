@@ -6,6 +6,14 @@ header {
     }
     .bm-burger-button {
         width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 0;
+        top: 21px;
+        fill: white;
+        @media(min-width: 992px) {
+            display: none;
+        }
     }
     .nav-menu ul {
         margin-left: auto;
@@ -23,4 +31,23 @@ header {
     .nav-item {
         margin-top: 10px;
     }
+    .bm-overlay {
+        opacity: 0 !important;
+        background-color: $white !important;
+    }
+    .bm-menu-wrap {
+        background-color: white;
+        max-height: 264px;
+        .mmenu--list {
+            list-style: none;
+            padding-top: 20px;
+            li {
+                padding-top: 7px;
+            }
+        } 
+        a {
+            color: $black !important;
+        }
+    }
+
 }

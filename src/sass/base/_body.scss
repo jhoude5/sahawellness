@@ -6,12 +6,38 @@ h1, h2, h3, h4, h5, h6 {
     font-family: dancing script;
 }
 h2 {
-    font-size: 64px;
+    font-size: 32px;
+    @media(min-width: 768px) {
+        font-size: 48px;
+    }
+    @media(min-width: 1024px) {
+        font-size: 64px;
+    }
 }
 p, a {
-    font-family: inter;
-    font-size: 24px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    @media(min-width: 768px) {
+        font-size: 20px;
+    }
+    @media(min-width: 1024px) {
+        font-size: 24px;
+    }
 }
 section {
-    margin: 120px auto;
+    margin: 60px auto;
+    @media(min-width: 768px) {
+        margin: 85px auto;
+    }
+    @media(min-width: 1024px) {
+        margin: 120px auto;
+    }
+}
+.container {
+    @media(min-width: 568px) {
+        max-width: 100%;
+    }
+    @media(min-width: 1200px) {
+        max-width: 1200px;
+    }
 }
