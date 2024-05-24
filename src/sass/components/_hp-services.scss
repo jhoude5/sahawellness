@@ -12,11 +12,11 @@
     }
     img {
         width: 100%;
-        @media(min-width: 900px) {
+        @media(min-width: 980px) {
             width: 300px;
         }
         @media(min-width: 1200px) {
-            width: 100%;
+            // width: 100%;
         }
         
     }
@@ -26,6 +26,7 @@
 
         @media(min-width: 900px) {
             display: flex;
+            justify-content: center;
             gap: 7px;
         }
         @media(min-width: 1200px) {

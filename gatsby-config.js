@@ -4,10 +4,11 @@
 module.exports = {
   siteMetadata: {
     title: `elemental-kelowna`,
-    siteUrl: `https://www.yourdomain.tld`
-  },
-  flags: {
-    DEV_SSR: true
+    siteUrl: `https://www.yourdomain.tld`,
+    email: '',
+    phone: '',
+    address: '',
+
   },
   plugins: [{
     resolve: 'gatsby-source-contentful',
@@ -31,6 +32,15 @@ module.exports = {
       ],
       display: 'swap'
     }
+  },
+  {
+    resolve: `gatsby-plugin-manifest`,
+    options: {
+      name: `Elemental Health`,
+      short_name: `EH`,
+      start_url: `/`,
+      icon: 'src/favicon.png',
+    },
   },
   {
     resolve: 'gatsby-plugin-html-attributes',

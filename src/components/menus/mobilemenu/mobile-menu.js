@@ -1,22 +1,8 @@
-import React, { useRef } from "react";
+import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import { Link } from 'gatsby';
 
 const MobileMenu = (props) => {
-
-  const headingsRef = useRef([]);
-  const onCollapseClick = (index) => {
-    const current = headingsRef.current[index].className;
-    headingsRef.current[index].className = current.includes('expanded')
-      ? 'mmenu--list__item'
-      : 'mmenu--list__item expanded';
-
-    if (current.includes('expanded')) {
-      headingsRef.current[index].setAttribute('aria-expanded', 'false')
-    } else {
-      headingsRef.current[index].setAttribute('aria-expanded', 'true')
-    }
-  };
 
   return (
     <Menu {...props}>
@@ -39,7 +25,7 @@ const MobileMenu = (props) => {
         </li>
 
         <li className='mmenu--list__item'>
-          <Link className="btn btn-primary" to="/jane-app">Book an appointment</Link>
+          <a className="btn btn-primary" href="/jane-app">Book an appointment</a>
         </li>
       </ul>
     </Menu>

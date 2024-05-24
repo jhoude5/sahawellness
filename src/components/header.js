@@ -1,9 +1,6 @@
 
 import '../sass/styles.scss';
-import React, { useEffect } from 'react';
-import { Link } from 'gatsby';
-import Logo from '../files/logo.jpeg';
-import menuIcon from '../files/icons/menu.svg';
+import React from 'react';
 import closeIcon from '../files/icons/close.svg';
 import PropTypes from 'prop-types';
 import MainMenu from './menus/mainmenu/main-menu'
@@ -11,35 +8,9 @@ import MobileMenu from './menus/mobilemenu/mobile-menu';
 
 const Header = () => {
 
-    // const [scrolled, setScrolled] = React.useState(false);
-    // const [scrolledMobile, setScrolledMobile] = React.useState(false);
-    // const handleScroll = () => {
-    //     const offset = window.scrollY;
-    //     if (offset > 500) {
-    //         setScrolled(true);
-    //     }
-    //     else if (offset > 300) {
-    //         setScrolledMobile(true);
-    //     }
-    //     else {
-    //         setScrolled(false);
-    //         setScrolledMobile(false);
-    //     }
-    // }
-
-    // useEffect(() => {
-    //     window.addEventListener('scroll', handleScroll)
-    // })
-    // let headerClasses = ['header'];
-    // if (scrolled) {
-    //     headerClasses.push('scrolled');
-    // }
-
     return (
 
-        <header
-        // className={`s ${scrolledMobile ? "scrolled-mobile" : ""}`}>
-        >
+        <header>
             <div className='header container'><div className='inner'>
                 <MainMenu />
                 <MobileMenu

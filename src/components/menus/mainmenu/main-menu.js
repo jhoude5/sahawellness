@@ -1,8 +1,7 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import { Link } from 'gatsby';
-import PropTypes from 'prop-types'
 
-const MainMenu = ({ redHeader }) => {
+const MainMenu = () => {
 
   return (
     <nav className='navbar navbar-expand-lg'>
@@ -14,7 +13,7 @@ const MainMenu = ({ redHeader }) => {
                 <li className='nav-item'><Link className='nav-link' to='/tour'>Tour</Link></li>
                 <li className='nav-item'><Link className='nav-link' to='/store'>Store</Link></li>
                 <li className='nav-item'><Link className='nav-link' to='/contact-us'>Contact us</Link></li>
-                <Link className='book-appt-button btn btn-primary' to='https://accounts.janeapp.com/'>Book an appointment</Link>
+                <a className='book-appt-button btn btn-primary' href='https://accounts.janeapp.com/'>Book an appointment</a>
             </ul>
         </div>
      
@@ -23,7 +22,3 @@ const MainMenu = ({ redHeader }) => {
 }
 
 export default MainMenu;
-
-MainMenu.propTypes = {
-  redHeader: PropTypes.bool
-};

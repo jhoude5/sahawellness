@@ -54,15 +54,15 @@ const HomePage = () => {
           <div className='row'>
           <h2>Services Offered</h2>
           <div className='individual-services'>
-            <div className='service col-lg-4'>
+            <div className='service '>
               <img src={acupunture} />
               <p>Acupuncture</p>
             </div>
-            <div className='service col-lg-4'>
+            <div className='service '>
               <img src={massage} />
               <p>Massage</p>
             </div>
-            <div className='service col-lg-4'>
+            <div className='service '>
               <img src={soundHealing} />
               <p>Sound Healing</p>
             </div>
