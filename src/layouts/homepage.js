@@ -31,7 +31,7 @@ const HomepageLayout = ({ children }) => {
       <div>
         
        <Header />
-        <main id='main-content' tabIndex='-1'>
+        <main id='main-content' tabIndex='-1' className='homepage'>
         <section className='home--hero-section'>
         <div className='inner '>
           <img className='desktop-background-img'
@@ -45,7 +45,7 @@ const HomepageLayout = ({ children }) => {
           <div className='info-text'>
             <h1>
               Elemental <br/>
-              <span class="secondary-h1">Health</span>
+              <span className="secondary-h1">Health</span>
             </h1>
             
           </div>

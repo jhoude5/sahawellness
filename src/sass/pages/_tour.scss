@@ -1,0 +1,45 @@
+.tour-section {
+    h1 {
+        padding-bottom: 60px;
+    }
+    .slider-img {
+        
+        img {
+            width: 100%;
+        }
+    }
+    .slick-slide {
+        @media(min-width: 768px) {
+            padding-left: 20px;
+        }
+        
+    }
+    .slick-dots {
+        width: 90%;
+        @media(min-width: 768px) {
+            width: 100%;
+        }
+    }
+    .slick-next,
+    .slick-prev {
+        &::before {
+            opacity: 100;
+            font-size: 40px;
+            
+        }
+    }
+    .slick-next {
+        right: 40px;
+        @media(min-width: 768px) {
+            right: 50px;
+        }
+    }
+    .slick-prev {
+        z-index: 1;
+        left: 20px;
+        @media(min-width: 768px) {
+            left: 50px;
+        }
+        
+    }
+}

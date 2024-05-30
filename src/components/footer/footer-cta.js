@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 
-const FooterCTA = () =>  {
+const FooterCTA = ({className}) =>  {
 
   return (
     <div className='footer-cta'>

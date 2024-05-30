@@ -2,7 +2,7 @@
     padding-bottom: 80px;
     padding-top: 80px;
     text-align: center;
-    background-color: $color-clay;
+    background-color: $white;
     .row {
         display: flex;
         gap: 50px;
@@ -26,5 +26,10 @@
             }
         }
         
+    }
+}
+.homepage {
+    .footer-cta {
+        background-color: $color-clay;
     }
 }

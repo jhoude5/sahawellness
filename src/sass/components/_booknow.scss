@@ -5,6 +5,26 @@
 }
 .booknow-section {
         background-color: $color-clay;
+        color: $white;
+        .row {
+            text-align: center;
+        }
+        .btn-primary {
+            background-color: $color-sand;
+            border: none;
+            max-width: 250px;
+            margin: 30px auto 0;
+            padding: 15px 11px;
+            color: $black;
+            &:hover,
+            &:focus {
+                background-color: $color-gold;
+                color: $black;
+            }
+            @media(min-width: 768px) {
+                margin: 60px auto 0;
+            }
+        }
 }
 .btn-primary {
     background-color: $color-gold;
@@ -20,5 +40,13 @@
     }
     @media(min-width: 768px) {
         margin: 60px auto 0;
+    }
+}
+.booknow-cta {
+    margin: 0;
+    padding: 80px 20px;
+    background-color: $color-clay;
+    @media(min-width: 1200px) {
+        padding: 120px;
     }
 }

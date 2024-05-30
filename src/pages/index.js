@@ -9,39 +9,8 @@ import BookNow from '../components/cta/booknow';
 
 
 const HomePage = () => {
-  const fadersRef = useRef([]);
-  useEffect(() => {
-    const faders = fadersRef.current;
-    const appearOnScroll = new IntersectionObserver(
-      function (entries, appearOnScroll) {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-          entry.target.classList.add('appear');
-          appearOnScroll.unobserve(entry.target);
-        });
-      },
-      { threshold: 0.25 }
-    );
-    faders.forEach((fader) => appearOnScroll.observe(fader));
-  }, []);
 
-  // const data = useStaticQuery(graphql`
-  //   {
-  //     allContentfulBios {
-  //       nodes {
-  //         name
-  //         image {
-  //           url
-  //         }
-  //         description {
-  //           raw
-  //         }
-  //       }
-  //     }
-  //   }
-  // `);
-  // const cases = data.allContentfulBios.nodes;
-
+ 
   return (
     <HomepageLayout>
       {/* <SEO title='Home' /> */}
