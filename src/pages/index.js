@@ -13,10 +13,7 @@ const HomePage = () => {
  
   return (
     <HomepageLayout>
-      
-      <section className='homepage-cta'>
-        <BookNow />
-      </section>
+       <BookNow />
       <section className='homepage-services'>
         <div className='container'>
           <div className='row'>

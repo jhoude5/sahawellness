@@ -11,7 +11,7 @@ const Footer = () =>  {
         <nav className='col-md-9'><ul className='footer-menu'>
             <li><a href='/about'>About</a>
             <ul className='sub-footer-menu'>
-                <li><a href='/team'>Meet the team</a></li>
+                {/* <li><a href='/team'>Meet the team</a></li> */}
                 <li><a href='/services'>Services</a></li>
             </ul></li>
             <li><a href='/store'>Store</a></li>
