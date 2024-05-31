@@ -16,7 +16,7 @@ const FooterCTA = ({className}) =>  {
             </div>
             <div className='row-item col-md-4'>
                 <h2 className='footer-cta-heading'>Contact</h2>
-                <p>info@elementalkelowna.ca <br/> 555-555-5555</p>
+                <p>jaddabboud@icloud.com <br/> 604-446-7154</p>
             </div></div>
         </div>
    </div>

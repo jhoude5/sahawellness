@@ -59,7 +59,7 @@ const Store = () => {
         <div className='container'>
           <div className='row'>
             <h1>Store</h1>
-            <p>Check out my selection of items that work!</p>
+            <p>There are no items yet, please check back soon!</p>
             <div>
               {/* {storeHook.map((item, index)  => {
                   return (

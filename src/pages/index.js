@@ -13,7 +13,6 @@ const HomePage = () => {
  
   return (
     <HomepageLayout>
-      {/* <SEO title='Home' /> */}
       
       <section className='homepage-cta'>
         <BookNow />
@@ -31,10 +30,10 @@ const HomePage = () => {
               <img src={massage} />
               <p>Massage</p>
             </div>
-            <div className='service '>
+            {/* <div className='service '>
               <img src={soundHealing} />
               <p>Sound Healing</p>
-            </div>
+            </div> */}
           </div>
           <div className='learnmore-btn'>
             <a href='/services'>Learn more<img src={arrow} /></a>

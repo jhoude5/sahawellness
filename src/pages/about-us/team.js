@@ -10,29 +10,29 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
 const Team = () => {
   // const bioHook = BioHook();
-  const data = useStaticQuery(graphql`
-    {
-      allContentfulBios {
-        nodes {
-            id
-            itemName
-            url
-            shortDescription {
-                raw
-            }
-            imageOfItem {
-                url
-                gatsbyImageData
-            }
+//   const data = useStaticQuery(graphql`
+//     {
+//       allContentfulBios {
+//         nodes {
+//             id
+//             itemName
+//             url
+//             shortDescription {
+//                 raw
+//             }
+//             imageOfItem {
+//                 url
+//                 gatsbyImageData
+//             }
             
-        }
+//         }
     
     
-}
-    }
-  `);
+// }
+//     }
+//   `);
 
-  const teamDataNodes = data.allContentfulBios.nodes;
+  // const teamDataNodes = data.allContentfulBios.nodes;
 
   const options = {
     renderMark: {

@@ -57,7 +57,8 @@ const Tour = () => {
                 <div className='row'>
 
                     <h1>Take a tour of our space</h1>
-                    <Slider {...settings}>
+                    <p>We don't have a permanent location yet, check back soon!</p>
+                    {/* <Slider {...settings}>
                         <div className='slider-img'>
                             <img src={office1} />
                         </div>
@@ -70,10 +71,10 @@ const Tour = () => {
                         {/* <div>
                             <img src={office4} />
                         </div> */}
-                        <div className='slider-img'>
+                        {/* <div className='slider-img'>
                             <img src={office5} />
-                        </div>
-                    </Slider>
+                        </div> */}
+                    {/* </Slider> */} 
                 </div>
             </div>
             
