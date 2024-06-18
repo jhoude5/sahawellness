@@ -44,8 +44,8 @@ const HomepageLayout = ({ children }) => {
             ></img>
           <div className='info-text'>
             <h1>
-              Elemental <br/>
-              <span className="secondary-h1">Health</span>
+              Saha <br/>
+              <span className="secondary-h1">Wellness</span>
             </h1>
             
           </div>

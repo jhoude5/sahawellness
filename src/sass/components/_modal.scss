@@ -1,0 +1,11 @@
+.ReactModal__Content {
+    
+    margin: 0 auto;
+    height: 400px;
+    @media(min-width: 768px){
+        width:  50%;
+    }
+    span {
+        padding-top: 20px;
+    }
+}

@@ -1,38 +1,40 @@
 
-import React, { useStaticQuery } from 'react';
+import React from 'react';
 import Layout from '../../layouts/general';
 import { Link } from 'gatsby';
 import Tour from '../../components/cta/tournow';
-import BioHook from '../../hooks/bios';
 import { renderRichText } from 'gatsby-source-contentful/rich-text';
 import { INLINES, BLOCKS, MARKS } from '@contentful/rich-text-types';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import { graphql, useStaticQuery } from 'gatsby';
 
 const Team = () => {
-  // const bioHook = BioHook();
 //   const data = useStaticQuery(graphql`
-//     {
-//       allContentfulBios {
-//         nodes {
-//             id
-//             itemName
-//             url
-//             shortDescription {
-//                 raw
+//   query StoreQuery {
+//     allContentfulBios {
+//             nodes {
+//                 id
+//                 description {
+//                     raw
+//                 }
+//                 image {
+//                     url
+//                     gatsbyImageData
+//                 }
+//                 name
+//                 path
+//                 shortDescription {
+//                     raw
+//                 }
+                
 //             }
-//             imageOfItem {
-//                 url
-//                 gatsbyImageData
-//             }
-            
-//         }
-    
-    
-// }
+        
+        
 //     }
-//   `);
+//     }
+// `);
 
-  // const teamDataNodes = data.allContentfulBios.nodes;
+// const bios = data.allContentfulBios.nodes;
 
   const options = {
     renderMark: {
@@ -70,7 +72,7 @@ const Team = () => {
                 </div>
                 <div className='col-md-10 col-lg-9'>
                     <h1>Meet our Team</h1>
-                    {/* {bioHook.map((item, index)  => {
+                    {/* {bios.map((item, index)  => {
                   return (
                       <div className="teaser-grid--wrapper col-lg-4" id={item.id}>
                         <div className="teaser-grid">

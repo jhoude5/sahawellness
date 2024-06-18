@@ -9,7 +9,7 @@
                 text-decoration: underline;
             }
         }
-        a.active {
+        .active > a {
             font-weight: bold;
         }
     }

@@ -19,7 +19,7 @@ const Footer = () =>  {
             <li><a href='/tour'>Tour</a></li>
             </ul></nav>
         <div className='footer-logo col-md-3'>
-            <a href='/'>Elemental Health</a>
+            <a href='/'>Saha Wellness</a>
         </div>
         
         <div className=''>

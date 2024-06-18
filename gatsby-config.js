@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `elemental-kelowna`,
+    title: `Saha Welness`,
     siteUrl: `https://www.yourdomain.tld`,
     email: '',
     phone: '',
@@ -28,7 +28,7 @@ module.exports = {
     resolve: `gatsby-plugin-google-fonts`,
     options: {
       fonts: [
-        `island moments`, `didot`, `dancing script`, `inter`
+        `island moments`, `didot`, `dancing script`, `inter`, `abril fatface`
       ],
       display: 'swap'
     }

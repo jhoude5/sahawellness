@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby';
+import logo from '../../../files/logo.png';
 
 const MainMenu = () => {
 
   return (
     <nav className='navbar navbar-expand-lg'>
-        <Link to='/' className='navbar-brand'>Elemental Health</Link>
+        <Link to='/' className='navbar-brand'><img className='logo-icon' src={logo} /></Link>
         <div className="collapse navbar-collapse nav-menu">
             <ul className='navbar-nav'>
             

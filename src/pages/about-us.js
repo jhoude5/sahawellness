@@ -13,7 +13,7 @@ const AboutUs = () => {
       <section>
             <div className='container'>
                 <div className='row'>
-                  <div className='col-md-2 col-lg-3 '>
+                  <div className='col-lg-3 '>
                   <nav className='sidebar-menu'>
                   <ul>
                           <li className='active'><Link to='/about-us'>About Us</Link>
@@ -25,8 +25,8 @@ const AboutUs = () => {
                       </ul>
                   </nav>
                 </div>
-                <div className='col-md-10 col-lg-9 about-us-wrapper'>
-                <h1>About Us</h1>
+                <div className='col-md-11 col-lg-9 about-us-wrapper'>
+                <h1>About Me</h1>
                   <div className='about-us-container'>
                     
                     <img className='owner-img' src={JaddPhoto} alt='Jadd Abboud'/>

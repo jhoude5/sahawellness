@@ -40,8 +40,8 @@ const Contact = () => {
                                 <input type="hidden" name="bot-field" />
                                 <div className="row clearfix">
                                     <div className=" form-group">
-                                        <label className='col-lg-1'>Name <span className='required'>*</span></label>
-                                        <input  className='col-lg-11' onChange={({ target }) => setName(target.value)}
+                                        <label className='col-3 col-sm-2 col-md-1'>Name <span className='required'>*</span></label>
+                                        <input  className='col-9 col-sm-10 col-md-11' onChange={({ target }) => setName(target.value)}
                                             type="text"
                                             required
                                             name="name"
@@ -50,8 +50,8 @@ const Contact = () => {
                                     </div>
 
                                     <div className="form-group">
-                                        <label className='col-lg-1'>Email <span className='required'>*</span></label>
-                                        <input className='col-lg-11' type="email"
+                                        <label className='col-3 col-sm-2 col-md-1'>Email <span className='required'>*</span></label>
+                                        <input className='col-9 col-sm-10 col-md-11' type="email"
                                             name="email"
                                             value={email}
                                             required
@@ -59,8 +59,8 @@ const Contact = () => {
                                     </div>
 
                                     <div className="form-group">
-                                        <label className='col-lg-1'>Message <span className='required'>*</span></label>
-                                        <textarea  className='col-lg-11' name="message" placeholder="Message" required onChange={({ target }) => setMessage(target.value)}
+                                        <label className='col-3 col-sm-2 col-md-1'>Message <span className='required'>*</span></label>
+                                        <textarea  className='col-9 col-sm-10 col-md-11' name="message" placeholder="Message" required onChange={({ target }) => setMessage(target.value)}
                                             value={message}></textarea>
                                     </div>
 

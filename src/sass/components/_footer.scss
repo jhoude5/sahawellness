@@ -6,9 +6,10 @@ footer {
     }
     .social-icons {
         position: absolute;
-        bottom: 70px;
+        top: 25px;
         @media (min-width: 768px){
             position: relative;
+            top: 0;
         }
     }
     .social-icons-wrapper {
@@ -60,6 +61,9 @@ footer {
         top: 0;
         @media (min-width: 768px){
             position: relative;
+        }
+        a {
+            font-family: dancing script;
         }
     }
 }

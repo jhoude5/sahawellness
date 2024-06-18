@@ -9,11 +9,15 @@ header {
         height: 50px;
         position: absolute;
         right: 0;
-        top: 21px;
+        top: 28px;
         fill: white;
         @media(min-width: 992px) {
             display: none;
         }
+    }
+    .logo-icon {
+        max-width: 50px;
+        margin-right: 20px;
     }
     .nav-menu ul {
         margin-left: auto;
@@ -38,6 +42,7 @@ header {
     .bm-menu-wrap {
         background-color: white;
         max-height: 264px;
+        right: 58px;
         .mmenu--list {
             list-style: none;
             padding-top: 20px;

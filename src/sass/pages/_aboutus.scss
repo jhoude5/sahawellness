@@ -1,13 +1,29 @@
+.sidebar-menu {
+    display: none;
+    @media (min-width: 1024px ) {
+        display: block;
+    }
+}
 .about-us-wrapper {
+    margin: 0 20px;
+    @media (min-width: 1024px ) {
+        margin: 0;
+    }
+
     h1 {
-        padding-bottom: 40px;
+        padding-bottom: 20px;
+        @media (min-width: 1024px ) {
+            padding-bottom: 40px;
+        }
     }
     .owner-img {
         max-width: 300px;
         padding-right: 20px;
         float: left;
+        margin-bottom: 20px;
     }
     .about-us-container {
         float: left;
     }
+    
 }

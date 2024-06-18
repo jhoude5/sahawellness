@@ -21,8 +21,8 @@
     .info-text {
         background-color: $color-clay;
         opacity: 75%;
-        max-width: 500px;
-        width: 300px;
+        
+        max-width: 250px;
         font-family: island moments;
         margin: 0 auto;
         padding: 10px 30px 0 30px;
@@ -37,33 +37,41 @@
             margin: 0 auto;
             padding: 0 30px 0 60px;
             text-align: center;
+            max-width: 400px;
+        }
+        @media (min-width: 1024px) {
+            max-width: 500px;
         }
         h1 {
             color: $white;
             font-size: 60px;
+            font-family: island moments;
+            
+            text-align: left;
             @media(min-width: 768px) {
                 font-size: 78px;
+                margin-left: 20px;
             }
             @media(min-width: 1064px) {
-                font-size: 92px;
+                font-size: 128px;
             }
             
         }
         .secondary-h1 {
-            font-family: Didot;
-            margin-top: 0;
+            font-family: abril fatface;
             font-size: 38px;
             text-align: right;
             color: $white;
             float: right;
-            padding-right: 35px;
-            margin-top: -20px;
+            padding-right: 11px;
+            margin-top: -32px;
             padding-bottom: 20px;
             @media(min-width: 768px) {
                 font-size: 48px;
-                padding-right: 54px;
+                padding-right: 72px;
             }
             @media(min-width: 1064px) {
+                margin-top: -67px;
                 font-size: 65px;
             }
         }

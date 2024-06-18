@@ -2,38 +2,36 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import Layout from '../layouts/general';
-import '../sass/styles.scss';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import StoreHook from '../hooks/store';
 import { renderRichText } from 'gatsby-source-contentful/rich-text';
 import { INLINES, BLOCKS, MARKS } from '@contentful/rich-text-types';
 import BookNow from '../components/cta/booknow';
 
 const Store = () => {
-  // const storeHook = StoreHook();
-//   const data = useStaticQuery(graphql
-//     `{
-//       allContentfulStore {
-//         edges {
-//           nodes {
-//             id
-//             itemName
-//             url
-//             shortDescription {
-//                 raw
-//             }
-//             imageOfItem {
+//   const data = useStaticQuery(graphql`
+//   query StoreQuery {
+//     allContentfulStore {
+//             nodes {
+//                 id
+//                 itemName
 //                 url
-//                 gatsbyImageData
+//                 shortDescription {
+//                     raw
+//                 }
+//                 imageOfItem {
+//                     url
+//                     gatsbyImageData
+//                 }
+                
 //             }
-//         }
-//         }
         
-//       }
+        
+//     }
 //     }
 // `);
-
+// console.log(data);
 // const storeItems = data.allContentfulStore.nodes;
+
 
   const options = {
     renderMark: {
@@ -61,7 +59,8 @@ const Store = () => {
             <h1>Store</h1>
             <p>There are no items yet, please check back soon!</p>
             <div>
-              {/* {storeHook.map((item, index)  => {
+
+              {/* {storeItems.map((item, index)  => {
                   return (
 
                       <div className="teaser-grid--wrapper card col-md-4" id={item.id}>

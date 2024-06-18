@@ -34,8 +34,14 @@
                 padding: 14px 57px;
                 border: none;
                 border-radius: 4px;
-                margin-left: 96px;
+                margin-left: 76px;
                 font-weight: bold;
+                @media(min-width: 768px) {
+                    margin-left: 64px;
+                }
+                @media(min-width: 1024px) {
+                    margin-left: 96px;
+                }
             }
             
         }
