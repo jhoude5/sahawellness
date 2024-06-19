@@ -13,11 +13,11 @@ const FooterCTA = ({className}) =>  {
             </div>
             <div className='row-item col-md-4'>
                 <h2 className='footer-cta-heading'>Hours</h2>
-                <p>Monday-Friday <br/>9:00am - 4:00pm</p>
+                <p>To be determined</p>
             </div>
             <div className='row-item col-md-4'>
                 <h2 className='footer-cta-heading'>Contact</h2>
-                <p>jaddabboud@icloud.com <br/> 604-446-7154</p>
+                <p>jaddabboudacu@gmail.com <br/> 604-446-7154</p>
             </div></div>
         </div>
    </div>

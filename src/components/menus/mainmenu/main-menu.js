@@ -14,7 +14,7 @@ const MainMenu = () => {
                 <li className='nav-item'><Link className='nav-link' to='/tour'>Tour</Link></li>
                 <li className='nav-item'><Link className='nav-link' to='/store'>Store</Link></li>
                 <li className='nav-item'><Link className='nav-link' to='/contact-us'>Contact us</Link></li>
-                <a className='book-appt-button btn btn-primary' href='https://accounts.janeapp.com/'>Book an appointment</a>
+                <a className='book-appt-button btn btn-primary' href='https://jaddabboudacupuncture.janeapp.com/#staff_member/1'>Book an appointment</a>
             </ul>
         </div>
      
