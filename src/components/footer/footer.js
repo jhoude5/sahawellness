@@ -30,8 +30,8 @@ const Footer = () =>  {
         </div>
         <div className='social-icons col-md-3'>
             <div className='social-icons-wrapper'>
-                <a href='/' className='social-icon'><img src={instagram}/></a> 
-                <a href='/' className='social-icon'><img src={facebook}/></a>
+                <a href='https://www.instagram.com/jaddabboud_acupuncture/?hl=en' className='social-icon'><img src={instagram}/></a> 
+                <a href='https://www.facebook.com/p/Jadd-Abboud-Acupuncture-100047763417237/?paipv=0&eav=Afa1iVW3O4i-j43ZmjeZNZSwicDOX4rJ8WcJJ578LuxLMZN1QGaIvDrM6yBN9-xuNVU&_rdr' className='social-icon'><img src={facebook}/></a>
             </div>
         </div></div>
     </div>
