@@ -12,7 +12,7 @@ const Footer = () =>  {
             <li><a href='/about'>About</a>
             <ul className='sub-footer-menu'>
                 {/* <li><a href='/team'>Meet the team</a></li> */}
-                <li><a href='/services'>Services</a></li>
+                <li><a href='/about-us/services'>Services</a></li>
             </ul></li>
             <li><a href='/store'>Store</a></li>
             <li><a href='/contact-us'>Contact Us</a></li>

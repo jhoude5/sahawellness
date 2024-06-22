@@ -33,10 +33,6 @@ const HomePage = () => {
               <img src={acupunture} />
               <p>Acupuncture</p>
             </div>
-            <div className='service '>
-              <img src={massage} />
-              <p>Massage</p>
-            </div>
             {/* <div className='service '>
               <img src={soundHealing} />
               <p>Sound Healing</p>

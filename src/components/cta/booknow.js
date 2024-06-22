@@ -8,7 +8,7 @@ const BookNow = () =>  {
         <div className='row'>
             <h2>Book now!</h2>
             <p>Discover integrative health in Kelowna. Let's start your journey.</p>
-            <a href='/' className='btn btn-primary'>Book an appointment</a>
+            <a href='https://jaddabboudacupuncture.janeapp.com/#staff_member/1' className='btn btn-primary'>Book an appointment</a>
         </div>
       </div>
    </section>

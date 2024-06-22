@@ -12,10 +12,6 @@ const FooterCTA = ({className}) =>  {
                 <p>515 Bay Ave. Kelowna, BC V1Y 7J8</p>
             </div>
             <div className='row-item col-md-4'>
-                <h2 className='footer-cta-heading'>Hours</h2>
-                <p>To be determined</p>
-            </div>
-            <div className='row-item col-md-4'>
                 <h2 className='footer-cta-heading'>Contact</h2>
                 <p>jaddabboudacu@gmail.com <br/> 604-446-7154</p>
             </div></div>
