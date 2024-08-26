@@ -3,7 +3,7 @@ import React, { useRef, useEffect } from 'react';
 import Layout from '../layouts/general';
 import { Link } from 'gatsby';
 import BookNow from '../components/cta/booknow';
-import JaddPhoto from '../files/images/Jadd.jpg';
+import JaddPhoto from '../files/images/jadd.jpg';
 
 const AboutUs = () => {
  

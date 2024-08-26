@@ -6,10 +6,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import office1 from '../files/images/tour/office1.jpg';
-import office2 from '../files/images/tour/office2.jpg';
-import office3 from '../files/images/tour/office3.jpg';
+import office2 from '../files/images/tour/office2.jpeg';
+// import office3 from '../files/images/tour/office3.jpg';
 // import office4 from '../files/images/tour/office4.jpg';
-import office5 from '../files/images/tour/office5.jpg';
+// import office5 from '../files/images/tour/office5.jpg';
 import BookNow from '../components/cta/booknow';
 
 const Tour = () => {
@@ -57,24 +57,23 @@ const Tour = () => {
                 <div className='row'>
 
                     <h1>Take a tour of our space</h1>
-                    <p>We don't have a permanent location yet, check back soon!</p>
-                    {/* <Slider {...settings}>
+                   <Slider {...settings}>
                         <div className='slider-img'>
                             <img src={office1} />
                         </div>
                         <div className='slider-img'>
                             <img src={office2} />
                         </div>
-                        <div className='slider-img'>
+                        {/* <div className='slider-img'>
                             <img src={office3} />
                         </div>
-                        {/* <div>
+                        <div>
                             <img src={office4} />
-                        </div> */}
-                        {/* <div className='slider-img'>
+                        </div>
+                        <div className='slider-img'>
                             <img src={office5} />
-                        </div> */}
-                    {/* </Slider> */} 
+                        </div>  */}
+                    </Slider>
                 </div>
             </div>
             

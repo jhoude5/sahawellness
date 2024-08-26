@@ -28,7 +28,7 @@ module.exports = {
     resolve: `gatsby-plugin-google-fonts`,
     options: {
       fonts: [
-        `island moments`, `didot`, `dancing script`, `inter`, `abril fatface`
+        `island moments`, `didot`, `dancing script`, `inter`, `abril fatface`, `fondamento`
       ],
       display: 'swap'
     }

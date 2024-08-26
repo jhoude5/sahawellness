@@ -6,22 +6,14 @@ import massage from '../files/images/massage.png';
 import soundHealing from '../files/images/soundhealing.png';
 import arrow from '../files/icons/arrow-right.svg';
 import BookNow from '../components/cta/booknow';
-import NoticeModal from '../components/modal';
-import Modal from "react-modal";
 
-Modal.setAppElement(`#___gatsby`);
+
 
 const HomePage = () => {
-  const [showModal, setShowModal] = useState(false);
-  useEffect(() => {
-    const timeId = setTimeout(() => setShowModal(true), 1000)
 
-    return () => clearTimeout(timeId)
-  })
  
   return (
     <HomepageLayout>
-      <NoticeModal/>
        <BookNow />
 
       <section className='homepage-services'>
