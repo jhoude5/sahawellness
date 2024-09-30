@@ -16,8 +16,14 @@ header {
         }
     }
     .logo-icon {
-        max-width: 100px;
+        max-width: 50px;
         margin-right: 20px;
+        @media(min-width: 768px) {
+            max-width: 75px;
+        }
+        @media(min-width: 1024px) {
+            max-width: 100px;
+        }
     }
     .nav-menu ul {
         margin-left: auto;
