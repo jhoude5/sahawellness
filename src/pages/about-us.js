@@ -12,7 +12,6 @@ const AboutUs = () => {
     <Layout>
       <section>
             <div className='container'>
-                 <div className='row'>
                   {/* <div className='col-lg-3 '>
                   <nav className='sidebar-menu'>
                   <ul>
@@ -27,7 +26,7 @@ const AboutUs = () => {
                       </ul>
                   </nav>
                 </div>  */}
-                <div className='col-lg-12 about-us-wrapper'>
+                <div className='about-us-wrapper'>
                   <h1>About Me</h1>
                     <div className='about-us-container'>
                       
@@ -40,7 +39,7 @@ const AboutUs = () => {
                       </p>
                     </div>
                 </div>
-              </div>
+              
             </div>
         </section>
         <BookNow />
