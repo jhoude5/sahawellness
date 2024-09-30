@@ -6,7 +6,7 @@ footer {
     }
     .social-icons {
         position: absolute;
-        top: 25px;
+        top: 85px;
         @media (min-width: 768px){
             position: relative;
             top: 0;
@@ -41,6 +41,7 @@ footer {
         padding: 0;
         @media(min-width: 768px) {
             display: flex;
+            margin-top: 40px;
         }
         a {
             font-size: 20px;
@@ -62,8 +63,14 @@ footer {
         @media (min-width: 768px){
             position: relative;
         }
-        a {
-            font-family: dancing script;
+        img {
+            width: 75px;
+            height: 75px;
+            @media(min-width: 768px) {
+                width: 175px;
+                height: 175px;
+            }
+            
         }
     }
 }

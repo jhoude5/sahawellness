@@ -6,6 +6,7 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { renderRichText } from 'gatsby-source-contentful/rich-text';
 import { INLINES, BLOCKS, MARKS } from '@contentful/rich-text-types';
 import BookNow from '../components/cta/booknow';
+import SEO from "../components/seo";
 
 const Store = () => {
 //   const data = useStaticQuery(graphql`
@@ -96,3 +97,9 @@ const Store = () => {
 
 
 export default Store;
+export const Head = () => (
+  <SEO
+    title='Store'
+    description=''
+  />
+);

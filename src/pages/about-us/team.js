@@ -7,6 +7,7 @@ import { renderRichText } from 'gatsby-source-contentful/rich-text';
 import { INLINES, BLOCKS, MARKS } from '@contentful/rich-text-types';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { graphql, useStaticQuery } from 'gatsby';
+import SEO from "../../components/seo";
 
 const Team = () => {
 //   const data = useStaticQuery(graphql`
@@ -102,3 +103,9 @@ const Team = () => {
 };
 
 export default Team;
+export const Head = () => (
+  <SEO
+    title='Team'
+    description='Meet the team at Saha Wellness'
+  />
+);

@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Layout from '../layouts/general';
 import '../sass/styles.scss';
 import BookNow from '../components/cta/booknow';
+import SEO from "../components/seo";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -84,3 +85,9 @@ const Contact = () => {
 };
 
 export default Contact;
+export const Head = () => (
+    <SEO
+      title='Contact Us'
+      description='Contact Saha Wellness for information'
+    />
+  );

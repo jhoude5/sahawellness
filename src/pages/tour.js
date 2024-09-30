@@ -11,6 +11,7 @@ import office2 from '../files/images/tour/office2.jpeg';
 // import office4 from '../files/images/tour/office4.jpg';
 // import office5 from '../files/images/tour/office5.jpg';
 import BookNow from '../components/cta/booknow';
+import SEO from "../components/seo";
 
 const Tour = () => {
     var settings = {
@@ -86,3 +87,9 @@ const Tour = () => {
 };
 
 export default Tour;
+export const Head = () => (
+  <SEO
+    title='Tour of office space'
+    description='Acupuncture in Kelowna for Pain Relief & Wellness'
+  />
+);

@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import instagram from '../../files/icons/instagram.svg';
 import facebook from '../../files/icons/facebook.svg';
+import logo from '../../files/logo.png';
 
 const Footer = () =>  {
 
@@ -12,14 +13,16 @@ const Footer = () =>  {
             <li><a href='/about'>About</a>
             <ul className='sub-footer-menu'>
                 {/* <li><a href='/team'>Meet the team</a></li> */}
-                <li><a href='/about-us/services'>Services</a></li>
+                <li><a href='/acupuncture-kelowna'>Acupuncture</a></li>
+                <li><a href='/massage-kelowna'>Massage</a></li>
+                <li><a href='/cupping-kelowna'>Cupping</a></li>
             </ul></li>
             <li><a href='/store'>Store</a></li>
             <li><a href='/contact-us'>Contact Us</a></li>
             <li><a href='/tour'>Tour</a></li>
             </ul></nav>
         <div className='footer-logo col-md-3'>
-            <a href='/'>Saha Wellness</a>
+            <img src={logo} alt='saha wellness logo' />
         </div>
         
         <div className=''>

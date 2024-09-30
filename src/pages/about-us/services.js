@@ -6,6 +6,7 @@ import massage from '../../files/images/massage-service.webp';
 import soundhealing from '../../files/images/sound-healing-service.webp';
 import BookNow from '../../components/cta/booknow';
 import { Link } from 'gatsby';
+import SEO from "../../components/seo";
 
 const Services = () => {
   return (
@@ -58,3 +59,9 @@ const Services = () => {
 };
 
 export default Services;
+export const Head = () => (
+  <SEO
+    title='Services'
+    description='Learn about the services offered at Saha Wellnesss'
+  />
+);
