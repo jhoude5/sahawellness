@@ -9,7 +9,7 @@ const MobileMenu = (props) => {
       <ul className="mmenu--list">
       
         <li className='mmenu--list__item'>
-          <Link to='/about'>About</Link>
+          <Link to='/about-us'>About</Link>
         </li>
         
         <li className='mmenu--list__item'>

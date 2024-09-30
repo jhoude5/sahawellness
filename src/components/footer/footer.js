@@ -10,7 +10,7 @@ const Footer = () =>  {
     <div className='container'>
         <div className='row'>
         <nav className='col-md-9'><ul className='footer-menu'>
-            <li><a href='/about'>About</a>
+            <li><a href='/about-us'>About</a>
             <ul className='sub-footer-menu'>
                 {/* <li><a href='/team'>Meet the team</a></li> */}
                 <li><a href='/acupuncture-kelowna'>Acupuncture</a></li>
