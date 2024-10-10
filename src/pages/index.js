@@ -26,10 +26,10 @@ const HomePage = () => {
               <img src={acupunture} />
               <p>Acupuncture</p></a>
             </div>
-            <div className='service'><a href='/massage-kelowna'>
+            {/* <div className='service'><a href='/massage-kelowna'>
               <img src={massage} />
               <p>Massage</p></a>
-            </div>
+            </div> */}
             <div className='service'><a href='/cupping-kelowna'>
               <img src={cupping} />
               <p>Cupping</p></a>
