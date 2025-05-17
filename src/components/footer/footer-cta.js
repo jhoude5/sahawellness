@@ -8,7 +8,8 @@ const FooterCTA = ({className}) =>  {
             <div className='row'>
                 <div className='row-item col-md-4'>
                 <h2 className='footer-cta-heading'>Location</h2>
-                <p>515 Bay Ave. Kelowna, BC V1Y 7J8</p>
+                <p>Westboro Location</p>
+                    <p>Downtown Location</p>
             </div>
             <div className='row-item col-md-4'>
                 <h2 className='footer-cta-heading'>Contact</h2>
