@@ -14,7 +14,6 @@ const Footer = () =>  {
             <ul className='sub-footer-menu'>
                 {/* <li><a href='/team'>Meet the team</a></li> */}
                 <li><a href='/acupuncture-kelowna'>Acupuncture</a></li>
-                <li><a href='/massage-kelowna'>Massage</a></li>
                 <li><a href='/cupping-kelowna'>Cupping</a></li>
             </ul></li>
             <li><a href='/store'>Store</a></li>
