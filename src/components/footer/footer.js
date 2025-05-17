@@ -26,7 +26,7 @@ const Footer = () =>  {
         </div>
         
         <div className=''>
-    <a className='btn btn-primary' style="margin-right: 1rem" href='https://continuumfitness.janeapp.com/#/staff_member/14'>Book Westboro</a>
+    <a className='btn btn-primary' href='https://continuumfitness.janeapp.com/#/staff_member/14'>Book Westboro</a>
             <a className='btn btn-primary' href='https://jaddabboudacupuncture.janeapp.com/#staff_member/1'>Book Downtown</a>
         </div>
         <div className='col-md-9'>
