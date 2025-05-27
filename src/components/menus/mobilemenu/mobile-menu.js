@@ -26,7 +26,7 @@ const MobileMenu = (props) => {
 
         <li className='mmenu--list__item'>
             <a className="btn btn-primary" href="https://continuumfitness.janeapp.com/#/staff_member/14">Book Westboro</a>
-          <a className="btn btn-primary" href="https://jaddabboudacupuncture.janeapp.com/#staff_member/1">Book Downtown</a>
+          <a className="btn btn-primary" href="https://jaddabboudacupuncture.janeapp.com/#staff_member/1">Book Somerset</a>
         </li>
       </ul>
     </Menu>
