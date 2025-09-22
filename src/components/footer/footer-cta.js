@@ -11,7 +11,7 @@ const FooterCTA = ({className}) =>  {
                 <p className="location-heading">Continuum Fitness</p>
                 <p>310 Beechgrove Ave, Suite A</p>
                 <p className="location-heading">Verve Movement</p>
-                <p> 341 Richmond Road, B2 #208</p>
+                <p> 341 Richmond Road, B2 </p>
             </div>
             <div className='row-item col-md-4'>
                 <h2 className='footer-cta-heading'>Contact</h2>
