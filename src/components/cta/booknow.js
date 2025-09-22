@@ -8,8 +8,8 @@ const BookNow = () =>  {
         <div className='row'>
             <h2>Book now!</h2>
             <p>Discover integrative health in Kelowna. Let's start your journey.</p>
-     <a href='https://continuumfitness.janeapp.com/#/staff_member/14' className='btn btn-primary'>Book Westboro</a>
-            <a href='https://jaddabboudacupuncture.janeapp.com/#staff_member/1' className='btn btn-primary'>Book Somerset</a>
+     <a href='https://continuumfitness.janeapp.com/#/staff_member/14' className='btn btn-primary'>Book Continuum Fitness</a>
+            <a href='https://vervemovement.janeapp.com/#/staff_member/6' className='btn btn-primary'>Book Verve Movement</a>
         </div>
       </div>
    </section>
