@@ -14,8 +14,8 @@ const MainMenu = () => {
                 <li className='nav-item'><Link className='nav-link' to='/tour'>Tour</Link></li>
                 <li className='nav-item'><Link className='nav-link' to='/store'>Store</Link></li>
                 <li className='nav-item'><Link className='nav-link' to='/contact-us'>Contact us</Link></li>
-    <a className='book-appt-button btn btn-primary' href='https://continuumfitness.janeapp.com/#/staff_member/14'>Book Continuum Fitness</a>
-                <a className='book-appt-button btn btn-primary' href='https://vervemovement.janeapp.com/#/staff_member/6'>Book Verve Movement</a>
+    <a className='book-appt-button btn btn-primary' href='https://continuumfitness.janeapp.com/#/staff_member/14'>Book @ Continuum Fitness</a>
+                <a className='book-appt-button btn btn-primary' href='https://vervemovement.janeapp.com/#/staff_member/6'>Book @ Verve Movement</a>
             </ul>
         </div>
      
