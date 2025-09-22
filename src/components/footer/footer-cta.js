@@ -8,10 +8,10 @@ const FooterCTA = ({className}) =>  {
             <div className='row'>
                 <div className='row-item col-md-4'>
                 <h2 className='footer-cta-heading'>Location</h2>
-                <p className="location-heading">Westboro Location</p>
+                <p className="location-heading">Continuum Fitness</p>
                 <p>310 Beechgrove Ave, Suite A</p>
-                <p className="location-heading">Somerset Location</p>
-                <p>190 Somerset Street West #208</p>
+                <p className="location-heading">Verve Movement</p>
+                <p> 341 Richmond Road, B2 #208</p>
             </div>
             <div className='row-item col-md-4'>
                 <h2 className='footer-cta-heading'>Contact</h2>
