@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import office1 from '../files/images/tour/office1.jpg';
 import office2 from '../files/images/tour/office2.jpeg';
-// import office3 from '../files/images/tour/office3.jpg';
+// import office3 from 'IMG_4529.jpg';
 // import office4 from '../files/images/tour/office4.jpg';
 // import office5 from '../files/images/tour/office5.jpg';
 import BookNow from '../components/cta/booknow';
